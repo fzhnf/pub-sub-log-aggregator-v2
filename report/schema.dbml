@@ -1,0 +1,22 @@
+Table processed_events {
+  id integer [pk, increment]
+  topic varchar(255) [not null]
+  event_id varchar(255) [not null]
+  timestamp timestamptz [not null]
+  source varchar(255) [not null]
+  payload jsonb [not null]
+  processed_at timestamptz [default: `CURRENT_TIMESTAMP`]
+
+  indexes {
+    (topic, event_id) [unique, name: "unique_topic_event"]
+    topic [name: "idx_events_topic"]
+  }
+}
+
+Table stats {
+  id integer [pk, default: 1, note: "Constraint CHECK (id = 1) ensures singleton row"]
+  received integer [default: 0]
+  unique_processed integer [default: 0]
+  duplicate_dropped integer [default: 0]
+  started_at timestamptz [default: `CURRENT_TIMESTAMP`]
+}

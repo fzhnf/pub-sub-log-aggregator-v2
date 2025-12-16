@@ -1,0 +1,18 @@
+erDiagram
+    processed_events {
+        SERIAL id PK
+        VARCHAR(255) topic "NOT NULL"
+        VARCHAR(255) event_id "NOT NULL"
+        TIMESTAMPTZ timestamp "NOT NULL"
+        VARCHAR source "NOT NULL"
+        JSONB payload "NOT NULL"
+        TIMESTAMPTZ processed_at "DEFAULT CURRENT_TIMESTAMP"
+    }
+
+    stats {
+        INTEGER id PK "DEFAULT 1"
+        INTEGER received "DEFAULT 0"
+        INTEGER unique_processed "DEFAULT 0"
+        INTEGER duplicate_dropped "DEFAULT 0"
+        TIMESTAMPTZ started_at "DEFAULT CURRENT_TIMESTAMP"
+    }
