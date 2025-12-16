@@ -431,6 +431,6 @@ Implementasi ini mendemonstrasikan penerapan konsep sistem terdistribusi dari Ba
 
 = Ucapan Terima Kasih
 
-Terima kasih kepada dosen pengampu mata kuliah Sistem Terdistribusi di Program Studi Informatika, Institut Teknologi Kalimantan.
+Terima kasih kepada Bapak Riska Kurniyanto Abdullah, S.T., M.Kom. selaku dosen pengampu mata kuliah Sistem Terdistribusi di Program Studi Informatika, Institut Teknologi Kalimantan.
 
 #bibliography("refs.bib", title: "Daftar Pustaka", style: "apa_indonesia.csl")
