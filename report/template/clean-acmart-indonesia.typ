@@ -327,7 +327,7 @@
 
       // _ #conference.short, #conference.date, #conference.year, #conference.venue. _
 
-      #sym.copyright #conference.year #copyright-owner(mode: copyright)
+      // #sym.copyright #conference.year #copyright-owner(mode: copyright)
 
       ACM ISBN #isbn...#price
 

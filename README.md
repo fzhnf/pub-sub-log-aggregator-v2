@@ -4,10 +4,11 @@ Sistem Pub-Sub log aggregator multi-service dengan Docker Compose yang mendukung
 
 ## 📄 Dokumentasi
 
-- **[Laporan Lengkap (report/report.typ)](report/report.typ)**: Teori (T1-T10), implementasi, dan analisis performa
+- **[Laporan Lengkap (report/report.pdf)](report/report.pdf)**: Teori (T1-T10), implementasi, dan analisis performa
 - **[Video Demo](https://youtu.be/AcT1KDS0pMc)**: Demo sistem lengkap (arsitektur, dedup, transaksi, persistensi)
 
 Untuk compile laporan ke PDF:
+
 ```bash
 cd report && typst compile report.typ
 ```
@@ -28,6 +29,7 @@ cd report && typst compile report.typ
 ```
 
 ### Komponen
+
 - **Aggregator**: API FastAPI untuk menerima dan memproses event; consumer internal
 - **Publisher**: Generator event dengan duplikasi (≥35%)
 - **Broker**: Redis 7 sebagai message queue internal
