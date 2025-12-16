@@ -24,7 +24,7 @@
 )
 
 
-#let doi = "https://github.com/fzhnf/pub-sub-log-aggregator"
+#let doi = "https://github.com/fzhnf/pub-sub-log-aggregator-v2"
 
 #let keywords = (
   "Sistem Terdistribusi",
