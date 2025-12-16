@@ -5,7 +5,7 @@ Sistem Pub-Sub log aggregator multi-service dengan Docker Compose yang mendukung
 ## 📄 Dokumentasi
 
 - **[Laporan Lengkap (report/report.typ)](report/report.typ)**: Teori (T1-T10), implementasi, dan analisis performa
-- **[Video Demo](https://youtube.com/...)**: (Link akan ditambahkan)
+- **[Video Demo](https://youtu.be/AcT1KDS0pMc)**: Demo sistem lengkap (arsitektur, dedup, transaksi, persistensi)
 
 Untuk compile laporan ke PDF:
 ```bash
