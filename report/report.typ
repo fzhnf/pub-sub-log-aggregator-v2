@@ -427,9 +427,7 @@ Implementasi ini mendemonstrasikan penerapan konsep sistem terdistribusi dari Ba
 
 == Link Video Demo
 
-#link("https://youtube.com/...")[YouTube - Video Demo Pub-Sub Log Aggregator]
-
-_(Link akan diperbarui setelah video di-upload)_
+#link("https://youtu.be/AcT1KDS0pMc")[YouTube - Video Demo Pub-Sub Log Aggregator]
 
 = Ucapan Terima Kasih
 
