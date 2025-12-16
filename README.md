@@ -290,7 +290,3 @@ pub-sub-log-aggregator/
 3. **INSERT ON CONFLICT DO NOTHING**: Atomic deduplication tanpa locking eksplisit
 4. **Batch processing**: Throughput lebih tinggi dengan transactional batch inserts
 5. **Background consumer optional**: Direct processing untuk simplicity, queue tersedia untuk scaling
-
-## License
-
-MIT
